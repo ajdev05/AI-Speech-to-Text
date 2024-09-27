@@ -5,15 +5,23 @@ Leveraging OpenAI's Whisper AI for working with Speech to Text Conversion
 ##  Dependencies Installation
 
 
-Model ([OpenAI Documentation](https://github.com/openai/whisper) )
+**Model ([OpenAI Documentation](https://github.com/openai/whisper) )**
 
 ```
 pip install -U openai-whisper
 ```
 
-CUDA:
+**Dependencies**
+```
+pip install pytorch numpy sounddevice
+```
+
+**CUDA**
 ```
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
 ```
+
+
+
 
 
