@@ -1,2 +1,19 @@
-# AI-Speech-to-Text-
+# AI Speech-to-Text
+
 Leveraging OpenAI's Whisper AI for working with Speech to Text Conversion
+
+##  Dependencies Installation
+
+
+Model ([OpenAI Documentation](https://github.com/openai/whisper) )
+
+```
+pip install -U openai-whisper
+```
+
+CUDA:
+```
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+```
+
+
