@@ -13,7 +13,7 @@ pip install -U openai-whisper
 
 **Dependencies**
 ```
-pip install pytorch numpy sounddevice
+pip install torch numpy sounddevice
 ```
 
 **CUDA**
